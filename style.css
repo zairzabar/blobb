@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url(/src/bg.svg);
+  background-image: url(src/bg.svg);
   background-attachment: fixed;
 }
 
