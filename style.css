@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@400;600;700&family=Shizuru&display=swap");
 
 :root {
-  --bg-color: hsl(221, 51%, 16%);
+  --bg-color: hsl(221, 52%, 27%);
   --nav-bg-color: hsl(221, 51%, 5%);
   --secondary-font: hsl(224, 100%, 80%);
   --accent-color: hsl(37, 98%, 53%);
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url(src/bg.svg);
+  background: var(--bg-color);
   background-attachment: fixed;
 }
 
