@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@400;600;700&family=Shizuru&display=swap");
+
+:root {
+  --bg-color: hsl(221, 51%, 16%);
+  --nav-bg-color: hsl(221, 51%, 5%);
+  --secondary-font: hsl(224, 100%, 80%);
+  --accent-color: hsl(37, 98%, 53%);
+  --primary-font: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/src/bg.svg);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/* header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+} */
+
+.navbar {
+  font-family: Shizuru;
+  background: var(--nav-bg-color);
+  color: var(--secondary-font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 5rem 5rem;
+  color: var(--primary-font);
+  font-family: poppins, sans-serif;
+  margin-top: rem;
+}
+
+.container p {
+  margin: 3rem 0;
+}
+
+.intro {
+  text-align: center;
+}
+
+.card-wrap h2 {
+  margin: 2rem 0;
+}
+
+.card__bold-text {
+  font-size: 3rem;
+}
+
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  padding: 1rem;
+  width: 60vw;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  border-radius: 45px;
+  background: #14213e;
+  box-shadow: 35px 35px 71px #0f182e, -35px -35px 71px #192a4e;
+}
+
+.card__heading {
+  margin: 1rem 0;
+}
+
+.card__img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.card__details {
+  font-size: 2rem;
+}
+
+.article-wrapper {
+  text-align: center;
+  font-family: pacifico, sans-serif;
+  color: var(--primary-font);
+}
+
+.reason__heading {
+  margin: 2rem;
+  font-size: 2em;
+}
+
+.main__head {
+  font-weight: 700;
+  margin: 3rem;
+}
+
+hr {
+  width: 80vw;
+  margin: 0 auto 1rem auto;
+  border: 1px solid var(--secondary-font);
+}
+
+ul li {
+  font-size: 1.5em;
+  list-style: none;
+}
+
+footer {
+  margin: 2rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary-font);
+  ;
+}
+
+footer a:hover {
+  color: var(--primary-font);
+}
