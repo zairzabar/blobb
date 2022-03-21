@@ -16,7 +16,6 @@
 
 body {
   background: var(--bg-color);
-  background-attachment: fixed;
 }
 
 h1 {
